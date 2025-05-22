@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Viper - Valorant Agent</title>
+  <link href="https://fonts.googleapis.com/css2?family=Exo+2:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css.css">
+  <link rel="icon" type="image/png" href="valorant logo.png">
+</head>
+<body class="agent-viper">
+
+  <!-- Sidebar -->
+  <aside class="sidebar">
+    <img class="logo" src="valorant logo.png" alt="Logo" onclick="location.href='index.html'">
+    <nav>
+      <a href="brimstone.html">Brimstone</a>
+      <a href="omen.html">Omen</a>
+      <a href="viper.html" class="active">Viper</a>
+      <a href="phoenix.html">Phoenix</a>
+      <a href="jett.html">Jett</a>
+      <a href="reyna.html">Reyna</a>
+      <a href="killjoy.html">Killjoy</a>
+      <a href="vyse.html">Vyse</a>
+      <a href="sage.html">Sage</a>
+      <a href="skye.html">Skye</a>
+      <a href="tejo.html">Tejo</a>
+      <a href="fade.html">Fade</a>
+      <a href="o_hre.html">O hře</a>
+    </nav>
+  </aside>
+
+  <!-- Agent Content -->
+  <section class="agent-content">
+    <h1>Viper</h1>
+    <p class="agent-desc">Viper používá smrtící chemikálie k ovládnutí bojiště a narušení nepřátelských linií. Její toxické schopnosti umožňují precizní kontrolu prostoru a manipulaci s pohybem protivníků.</p>
+
+    <h2>Schopnosti</h2>
+
+    <!-- Snake Bite -->
+    <div class="agent-ability">
+      <h3>Snake Bite (C)</h3>
+      <p><strong>Cena:</strong> 200 kredity</p>
+      <p>Vystřelí chemickou nálož, která vytváří kyselinové pole poškozující nepřátele.</p>
+      <div class="ability-gif">
+        <img src="viper1.gif" alt="Snake Bite Ability Animation">
+      </div>
+      <div class="ability-detail">
+        <table>
+          <tr><th>Schopnost</th><th>Cena</th><th>Cooldown</th><th>Typ</th><th>Popis</th></tr>
+          <tr><td>Snake Bite</td><td>200</td><td>30s</td><td>Kyselina</td><td>Poškozuje oblast</td></tr>
+        </table>
+      </div>
+    </div>
+
+    <!-- Poison Cloud -->
+    <div class="agent-ability">
+      <h3>Poison Cloud (Q)</h3>
+      <p><strong>Cena:</strong> 100 kredity</p>
+      <p>Granát, který vypouští jedovatý oblak. Lze znovu aktivovat.</p>
+      <div class="ability-gif">
+        <img src="viper2.gif" alt="Poison Cloud Ability Animation">
+      </div>
+      <div class="ability-detail">
+        <table>
+          <tr><th>Schopnost</th><th>Cena</th><th>Cooldown</th><th>Typ</th><th>Popis</th></tr>
+          <tr><td>Poison Cloud</td><td>100</td><td>Aktivace</td><td>Jed</td><td>Oblak plynu</td></tr>
+        </table>
+      </div>
+    </div>
+
+    <!-- Toxic Screen -->
+    <div class="agent-ability">
+      <h3>Toxic Screen (E)</h3>
+      <p><strong>Cena:</strong> Zdarma (dobíjí se)</p>
+      <p>Postaví dlouhou linii jedovatých výpustí, které vytvoří jedovatou stěnu.</p>
+      <div class="ability-gif">
+        <img src="viper3.gif" alt="Toxic Screen Ability Animation">
+      </div>
+      <div class="ability-detail">
+        <table>
+          <tr><th>Schopnost</th><th>Cena</th><th>Cooldown</th><th>Typ</th><th>Popis</th></tr>
+          <tr><td>Toxic Screen</td><td>0</td><td>40s</td><td>Stěna</td><td>Jedová bariéra</td></tr>
+        </table>
+      </div>
+    </div>
+
+    <!-- Viper's Pit -->
+    <div class="agent-ability">
+      <h3>Viper's Pit (X) <small>Ultimátní</small></h3>
+      <p>Vytvoří obrovský oblak jedu, který snižuje viditelnost a poškozuje nepřátele.</p>
+      <div class="ability-gif">
+        <img src="viper4.gif" alt="Viper's Pit Ability Animation">
+      </div>
+      <div class="ability-detail">
+        <table>
+          <tr><th>Schopnost</th><th>Cena</th><th>Cooldown</th><th>Typ</th><th>Popis</th></tr>
+          <tr><td>Viper's Pit</td><td>Ult</td><td>1× za 7 bodů</td><td>Oblak</td><td>Snížená viditelnost a damage</td></tr>
+        </table>
+      </div>
+    </div>
+
+    <!-- Obrázek pod obsahem -->
+    <div style="text-align:center; margin-top: 40px;">
+      <img src="viper5.jpg" alt="Viper Art" style="max-width: 90%; border-radius: 12px;">
+    </div>
+  </section>
+</body>
+</html>
